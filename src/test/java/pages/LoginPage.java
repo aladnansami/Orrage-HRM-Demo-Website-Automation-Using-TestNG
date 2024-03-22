@@ -20,8 +20,8 @@ public class Loginpage {
 
     public void doLogin (String username, String password)
     {
-        txtUsername.sendKeys("username");
-        txtPassword.sendKeys("password");
+        txtUsername.sendKeys(username);
+        txtPassword.sendKeys(password);
         btnSubmit.click();
     }
 }
